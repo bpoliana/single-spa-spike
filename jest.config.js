@@ -9,4 +9,5 @@ module.exports = {
   setupFilesAfterEnv: [
     "../node_modules/@testing-library/jest-dom/dist/index.js",
   ],
+  transformIgnorePatterns: ["node_modules/?!(react-icons)"],
 };
