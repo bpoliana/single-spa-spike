@@ -53,19 +53,20 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-jest": "^23.6.0",
-    "babel-preset-env": "^1.7.0",
-    "jest": "^24.0.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "@material-ui/core": "3.9.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^25.2.1",
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",
     "@types/systemjs": "^6.1.0",
-    "@types/webpack-env": "^1.15.1"
+    "@types/webpack-env": "^1.15.1",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "jest": {
     "verbose": true

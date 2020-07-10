@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@material-ui/core";
 
 interface Author {
   firstName: string;
@@ -71,10 +72,10 @@ const NoteForm = (props: Props) => {
         />
       </label>
 
-      <button data-testid="submit" type={"submit"} datatype={"submit"}>
+      <Button data-testid="submit" type={"submit"} datatype={"submit"}>
         {" "}
         Submit
-      </button>
+      </Button>
     </form>
   );
 };
