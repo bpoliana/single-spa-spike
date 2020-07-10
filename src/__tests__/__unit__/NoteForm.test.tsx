@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import NoteForm, { Props } from "../components/NoteForm";
+import NoteForm, { Props } from "../../components/NoteForm";
 
 function renderNoteForm(props: Partial<Props> = {}) {
   const defaultProps: Props = {
